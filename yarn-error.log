@@ -1,0 +1,35 @@
+Arguments: 
+  /home/blubirch/.nvm/versions/node/v14.21.2/bin/node /home/blubirch/.nvm/versions/node/v14.21.2/bin/yarn install
+
+PATH: 
+  /home/blubirch/.nvm/versions/node/v14.21.2/bin:/home/blubirch/.rvm/gems/ruby-3.0.1/bin:/home/blubirch/.rvm/gems/ruby-3.0.1@global/bin:/home/blubirch/.rvm/rubies/ruby-3.0.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/blubirch/.rvm/bin:/home/blubirch/.rvm/bin:/home/blubirch/.rvm/bin:/home/blubirch/.rvm/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  14.21.2
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/blubirch/rails_new_project/event_now/package.json: Unexpected string in JSON at position 41
+      at JSON.parse (<anonymous>)
+      at /home/blubirch/.nvm/versions/node/v14.21.2/lib/node_modules/yarn/lib/cli.js:1629:59
+      at Generator.next (<anonymous>)
+      at step (/home/blubirch/.nvm/versions/node/v14.21.2/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /home/blubirch/.nvm/versions/node/v14.21.2/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "app",
+    "private": "true"
+    "scripts": { "build:css": "sass ./app/assets/stylesheets/application.bootstrap.scss:./app/assets/builds/application.css --no-source-map --load-path=node_modules" }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
